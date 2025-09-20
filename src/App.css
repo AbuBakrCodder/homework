@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.site {
+  max-width: 1920px;
+  margin: 0px auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.father {
+  width: 100%;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: column;
+  gap: 3rem;
+  background-image: url("../public/img/bg.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+h1 {
+  text-transform: uppercase;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  text-transform: uppercase;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#mers {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+#bmw {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+img {
+  width: 150px;
+}
+
+#tt {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+#audi{
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
 }
